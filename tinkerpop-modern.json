@@ -1,0 +1,12 @@
+{"type":"node","id":"0","labels":["person"],"properties":{"name":"marko","id":"1","age":29}}
+{"type":"node","id":"1","labels":["person"],"properties":{"name":"josh","id":"4","age":32}}
+{"type":"node","id":"2","labels":["software"],"properties":{"name":"ripple","id":"5","lang":"java"}}
+{"type":"node","id":"3","labels":["person"],"properties":{"name":"peter","id":"6","age":35}}
+{"type":"node","id":"20","labels":["person"],"properties":{"name":"vadas","id":"2","age":27}}
+{"type":"node","id":"21","labels":["software"],"properties":{"name":"lop","id":"3","lang":"java"}}
+{"id":"0","type":"relationship","label":"knowns","properties":{"weight":0.5,"id":"7"},"start":{"id":"0","labels":["person"]},"end":{"id":"20","labels":["person"]}}
+{"id":"1","type":"relationship","label":"created","properties":{"weight":1.0,"id":"10"},"start":{"id":"1","labels":["person"]},"end":{"id":"2","labels":["software"]}}
+{"id":"2","type":"relationship","label":"created","properties":{"weight":0.4,"id":"11"},"start":{"id":"1","labels":["person"]},"end":{"id":"21","labels":["software"]}}
+{"id":"3","type":"relationship","label":"created","properties":{"weight":0.2,"id":"12"},"start":{"id":"3","labels":["person"]},"end":{"id":"21","labels":["software"]}}
+{"id":"20","type":"relationship","label":"knowns","properties":{"weight":1.0,"id":"8"},"start":{"id":"0","labels":["person"]},"end":{"id":"1","labels":["person"]}}
+{"id":"21","type":"relationship","label":"created","properties":{"weight":0.4,"id":"9"},"start":{"id":"0","labels":["person"]},"end":{"id":"21","labels":["software"]}}
