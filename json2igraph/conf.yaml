@@ -1,0 +1,11 @@
+instance_id: [instance_id]
+ip: [ip]
+graph_name: [graph_name]
+edge:
+  [edge_name]: [edge_table_name]
+node:
+  [node_name]: [node_table_name]
+user: [user]
+password: [password]
+thread_num: 60
+source_data: [data.json]
