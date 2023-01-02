@@ -1,11 +1,13 @@
 instance_id: [instance_id]
-ip: [ip]
+endpoint: [endpoint]
 graph_name: [graph_name]
 edge:
   [edge_name]: [edge_table_name]
 node:
   [node_name]: [node_table_name]
-user: [user]
+pkey:
+  [neo4j_table]: [graph_pkey]
+user_name: [user_name]
 password: [password]
-thread_num: 60
-source_data: [data.json]
+thread_num: 10
+source_file_path: [json_file_path]
